@@ -1,0 +1,298 @@
+@charset "UTF-8";
+body {	
+		background-image: url("../_imagens/fundo.jpg");
+		color: white;
+		
+		}
+		
+div#interface {
+		width: 1000px;
+		background-image: url("../_imagens/interface.jpg");
+		margin: -10px auto 0px auto;
+		box-shadow: 0px 0px 10px black;
+}		
+		
+	p 	{	font-size: 16pt;
+			text-align: justify; 
+			text-indent: 50px;
+			text-shadow: 2px 2px 2px black;
+			
+	}
+	
+
+/* Formatação do Cabeçalho */
+
+header#cabecalho {	border-bottom: 10px black solid;
+					margin-left: -1px;
+					height: 200px;
+					background: url("../_imagens/barra.jpg") no-repeat;
+					margin-bottom: 10px;
+					box-shadow: 0px 0px 10px black;
+	}
+
+	
+/* Formatação da Mensagem do Top */
+	
+marquee#mentopo {	text-shadow: 2px 2px 2px blue;
+					font-size: 13pt;
+					font-family: arial;
+}
+
+	
+/* Formatação do Menu */
+
+nav#menu {	display: block;
+			position: absolute;
+			
+}
+
+nav#menu ul {	display: block;
+			padding: 0px;
+			margin-top: 30px;
+			list-style: none;
+			text-transform: uppercase;
+			position: absolute;
+			left: -3px;
+			
+}
+
+nav#menu li { 	display: block;
+			border-top: 0px solid #356b8c;
+			background: -webkit-linear-gradient(top, #3e779d, #000000);
+			background: -moz-linear-gradient(top, #3e779d, #000000);
+			background: -ms-linear-gradient(top, #3e779d, #000000);
+			background: -o-linear-gradient(top, #3e779d, #000000);
+			padding: 10px 50px;
+			margin: 1px;
+			transition: background-color 1s;
+			-webkit-border-radius: 0px;
+			-moz-border-radius: 0px;
+			border-radius: 10px;
+			-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+			-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+			box-shadow: 1px 4px 10px #0000CD;
+			text-shadow: rgba(0,0,0,.4) 0 1px 0;
+			color: white;
+			font-size: 12pt;
+			font-family: Georgia, serif;
+			text-decoration: none;
+			text-align: center;
+   
+}
+
+nav#menu li:hover {	display: block;
+					color: black;
+					background: #B0C4DE;
+					text-decoration: underline;
+								
+				}
+
+nav#menu h1 {
+			display: none;
+}
+
+nav#menu a {	color: white;
+			text-decoration: none;
+	
+}
+
+/* Formatação da Sessão Principal */
+
+section#corpo {	display: block;
+				
+				width: 1000px;
+				float: left;
+				border-bottom: 0px solid;
+				box-shadow: 1px 6px 10px black;
+				
+}
+
+/* Formatação do Fale Conosco */
+
+
+h3#pfale {		font-size: 30px;
+				color: white;
+				text-shadow: 2px 2px 2px blue;
+				margin-left: -350px;
+				text-align: center;
+				
+}
+
+h3#rsocial {		font-size: 28px;
+				color: white;
+				text-shadow: 2px 2px 2px blue;
+				margin-left: 750px;
+				text-align: center;
+												
+}
+
+
+img#endereco {	margin-left: 240px;
+				
+}
+
+img#fonefixo {
+				margin-left: 240px;
+				margin-top: 10px;
+}
+
+
+img#whats {		margin-left: 240px;
+				margin-top: 10px;
+}
+
+img#mail {		margin-left: 240px;
+				margin-top: -10px;
+				
+}
+
+img#facebook {	margin-left: 845px;
+	
+}
+
+
+/* Formatação do Article da Sessão Principal */
+
+article#noticia-principal h2 {
+				text-align: right;
+				font-size: 30pt;
+				background-color: black;
+				box-shadow: 1px 6px 10px #0000CD;
+				padding: 1px 0px 1px 0px;
+				margin: 25px 10px 10px 0px;
+				padding-right: 10px;
+				text-shadow: 2px 2px 2px blue;
+								
+				}
+
+
+				
+/* Formatação do Texto da Sessão Principal */
+
+article#noticia-principal p {	text-align: justify; 
+							text-indent: 50px;
+							margin-right: 100px;
+							margin-left: 250px;
+							margin-top: 10px;
+							
+	}
+
+/* Formatação do Rodapé */
+
+footer#rodape {
+				clear: both;
+				display: block;
+				bottom: 0px;
+				position: relative;
+							
+}
+
+footer#rodape p {	position: relative;	
+				text-align: center;
+				font-size: 12px;
+				bottom: -20px;
+				height: 10px;
+				text-shadow: 2px 2px 2px black;
+					
+}
+
+footer#rodape a {	color: white;
+				text-decoration: none;
+				
+	
+}
+
+footer#rodape a:hover {	text-decoration: underline;
+						font-size: 17pt;
+}
+
+/* Formatação da lista de Serviços */
+
+ul#nossoservico   {	font-size: 18px;
+					color: white;
+					text-shadow: 2px 2px 2px black;
+					margin-left: 260px;
+						
+				
+				
+}
+
+/* Formatação das Logomarcas dos Clientes */
+
+img#espaco{			margin-left: 290px;
+			
+}
+
+img#joequipadora{	margin-left: 50px;
+			
+}
+
+img#grupocoepaz{	margin-left: 50px;
+			
+}
+
+img#doceartes{	margin-left: 290px;
+			
+}
+
+img#hmodas{	margin-left: 50px;
+			
+}
+
+img#funerariasgeraldo{	margin-left: 50px;
+			
+}
+
+img#juandes{	margin-left: 290px;
+			
+}
+
+img#jrdistri{	margin-left: 50px;
+			
+}
+
+
+/* Formatação dos contatos dos clientes */
+
+h4#contatosjo { color: white;
+				font-size: 9pt;
+				padding-left: 470px;
+				margin-top: -5px;
+				text-shadow: 2px 2px 2px black;
+}
+
+h4#contatosdoce { color: white;
+				font-size: 9pt;
+				padding-left: 315px;
+				margin-top: -10px;
+				text-shadow: 2px 2px 2px black;
+}
+
+h4#contatoshm { color: white;
+				font-size: 9pt;
+				padding-left: 509px;
+				margin-top: -25px;
+				text-shadow: 2px 2px 2px black;
+}
+
+
+h4#contatossg	 { color: white;
+				font-size: 9pt;
+				padding-left: 720px;
+				margin-top: -30px;
+				text-shadow: 2px 2px 2px black;
+}
+
+h4#contatojuan	 { color: white;
+				font-size: 9pt;
+				padding-left: 315px;
+				margin-top: -1px;
+				text-shadow: 2px 2px 2px black;
+}
+
+h4#contatojr { color: white;
+				font-size: 9pt;
+				padding-left: 560px;
+				margin-top: -25px;
+				text-shadow: 2px 2px 2px black;
+}		

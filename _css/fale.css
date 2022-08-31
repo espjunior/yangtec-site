@@ -1,0 +1,148 @@
+@charset "UTF-8";
+body {	
+		background-image: url("../_imagens/fundo.jpg");
+		color: white;
+		
+		}
+		
+div#interface {
+		width: 1000px;
+		background-image: url("../_imagens/interface.jpg");
+		margin: -10px auto 0px auto;
+		box-shadow: 0px 0px 10px black;
+}		
+		
+	p 	{	text-align: justify; 
+			text-indent: 50px;
+	}
+	
+
+/* Formatação do Cabeçalho */
+
+header#cabecalho {	border-bottom: 10px black solid;
+					margin-left: -1px;
+					height: 200px;
+					background: url("../_imagens/barra.jpg") no-repeat;
+					margin-bottom: 10px;
+					box-shadow: 0px 0px 10px black;
+	}
+
+	
+
+/* Formatação do Menu */
+
+nav#menu {	display: block;
+			position: absolute;
+			
+}
+
+nav#menu ul {	display: block;
+			padding: 0px;
+			margin-top: -20px;
+			list-style: none;
+			text-transform: uppercase;
+			position: absolute;
+			left: -3px;
+			
+}
+
+nav#menu li { 	display: block;
+			border-top: 0px solid #356b8c;
+			background: -webkit-linear-gradient(top, #3e779d, #000000);
+			background: -moz-linear-gradient(top, #3e779d, #000000);
+			background: -ms-linear-gradient(top, #3e779d, #000000);
+			background: -o-linear-gradient(top, #3e779d, #000000);
+			padding: 10px 50px;
+			margin: 1px;
+			transition: background-color 1s;
+			-webkit-border-radius: 0px;
+			-moz-border-radius: 0px;
+			border-radius: 10px;
+			-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+			-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+			box-shadow: 1px 4px 10px #0000CD;
+			text-shadow: rgba(0,0,0,.4) 0 1px 0;
+			color: white;
+			font-size: 12pt;
+			font-family: Georgia, serif;
+			text-decoration: none;
+			text-align: center;
+   
+}
+
+nav#menu li:hover {	display: block;
+					color: black;
+					background: #B0C4DE;
+					text-decoration: underline;
+								
+				}
+
+nav#menu h1 {
+			display: none;
+}
+
+nav#menu a {	color: white;
+			text-decoration: none;
+	
+}
+
+/* Formatação da Sessão Principal */
+
+section#corpo {	display: block;
+				width: 1000px;
+				float: left;
+				border-bottom: 0px solid;
+				box-shadow: 1px 6px 10px black;
+}
+
+/* Formatação do Article da Sessão Principal */
+
+article#noticia-principal h2 {
+				text-align: right;
+				font-size: 30pt;
+				background-color: black;
+				box-shadow: 1px 6px 10px #0000CD;
+				padding: 1px 0px 1px 0px;
+				margin: 25px 10px 10px 0px;
+				padding-right: 10px;
+								
+				}
+
+/* Formatação do Texto da Sessão Principal */
+
+article#noticia-principal p {	text-align: justify; 
+							text-indent: 50px;
+							margin-right: 100px;
+							margin-left: 250px;
+							margin-top: 10px;
+							
+	}
+
+/* Formatação do Rodapé */
+
+footer#rodape {
+				clear: both;
+}
+
+footer#rodape p {	
+								text-align: center;
+				position: absolute;	
+				font-size: 12px;
+				padding-left: 765px;
+				height: 15px;
+				background-color: black;
+				
+				
+				
+	
+}
+
+footer#rodape a {	color: white;
+				text-decoration: none;
+				
+	
+}
+
+footer#rodape a:hover {	text-decoration: underline;
+						font-size: 17pt;
+}
